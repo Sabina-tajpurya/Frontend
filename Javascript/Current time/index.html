@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo" >java</p>
+    <button type="submit" onclick='document.getElementById("demo").innerHTML="hello java"'>submit</button>
+    <button type="submit" id="login">login</button>
+    <p id="demo">demo</p>
+    <p id="date"></p>
+    <button type="button" onclick="document.getElementById('date').innerHTML=Date()">Date</button>
+    <p id="time"></p>
+    <script src="script.js" ></script> 
+    <script>
+        document.getElementById("time").innerHTML = new Date();
+    </script>
+</body>
+</html>

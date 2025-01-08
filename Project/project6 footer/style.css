@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", serif;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+.footercontainer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 0 60px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.footer-section{
+    flex: 1 1 250px;
+}
+.footer-section h3{
+    font-size: 24px;
+    border-bottom: 2px solid red;
+    display: inline-block;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.footer-section ul{
+    list-style: none;
+}
+.footer-section ul li{
+    margin: 5px 0;
+}
+.footer-section ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: color 1s ease;
+}
+.footer-section ul li a:hover{
+    color:blue;
+}
+.footer-section .socialicon{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+.footer-section .socialicon a{
+    color: white;
+    font-size: 18px;
+    transition: color 0.8s ease;
+}
+.footer-section .socialicon a:hover{
+    color: red;
+}
+.footer-buttom{
+    text-align: center;
+    border-top: 1px solid gray;
+    font-size: 18px;
+    margin-top: 25px;
+    padding-top: 15px;
+}
+@media screen and (max-width:768px)
+{
+    .footer-section .socialicon{
+        justify-content: center;
+    }
+    .footercontainer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+    

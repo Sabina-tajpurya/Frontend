@@ -1,0 +1,32 @@
+ table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+/*
+
+tr:nth-child(even)
+{
+    background-color: blue;
+}
+th:nth-child(even),td:nth-child(even)
+{
+    background-color: blue;
+} */
+
+/* .data{
+    border-bottom: 1px solid black;
+}
+.data:hover{
+    background-color: red;
+    height: 40px;
+    color: wheat;
+}
+.header{
+    background-color: green;
+} */
+

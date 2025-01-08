@@ -1,0 +1,12 @@
+p{
+    color: blueviolet;
+}
+table{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid blue;
+}
+th{
+    border: 1px solid pink;
+}

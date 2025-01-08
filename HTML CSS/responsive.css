@@ -1,0 +1,27 @@
+.gallery{
+    border: 1px solid black;
+}
+.gallery img{
+    width: 100%; 
+    height: auto;
+}
+.responsive{
+    padding: 6px; 
+    width: 20%;
+    float: left;
+}
+*{
+    box-sizing: border-box;
+}
+.desc{
+    padding: 10px;
+    text-align: center;
+}
+@media only screen and (max-width:800px)
+{
+    .responsive{
+        width: 20%;
+        margin: 6px 0;
+    }
+}
+    
