@@ -1,0 +1,82 @@
+*,
+::after,
+::before,
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    height: 100vh;
+    background: linear-gradient(360deg,#8052ec,#d161ff,white,red);
+  }
+  .container{
+    width: 40%;
+    padding: 30px 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    min-width: 450px;
+    border: 2px solid white;
+    background-color:cornflowerblue;
+  }
+  #newtask{
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgb(0,0,0,0.3);
+    position: relative;
+  }
+  #newtask input{
+    width: 70%;
+    height: 45px;
+    font-size: 15px;
+    border: 2px solid gray;
+    padding: 0 10px;
+    color: black;
+    font-weight: 500;
+    border-radius: 5px;
+    font-family: "Playwrite AU SA", serif;
+  }
+  #newtask input:focus{
+    border-color: #8052ec;
+    outline: none;
+  }
+  #newtask button{
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: "Playwrite AU SA", serif;
+    font-weight: 500;
+    background-color: #8052ec;
+    border: none;
+    color: aquamarine;
+    cursor: pointer;
+    float: right;
+    position: relative; 
+  }
+  #tasks{
+    background-color: white;
+    padding: 30px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgb(0,0,0,0.3); 
+    width: 100%;
+    position: relative;
+  }
+  .complete{
+    text-decoration: line-through;
+    color: #d161ff;
+    cursor: pointer;
+  }
+  .task{
+    background-color: azure;
+    height: 40px;
+    padding: 7px 10px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+  }

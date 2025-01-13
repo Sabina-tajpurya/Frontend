@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="myimage" onclick="changeimage()"
+    src="off.jpeg" width="200" height="200"/>
+    <script>
+        function changeimage(){
+            let image = document.getElementById("myimage");
+            if(image.src.includes("off.jpeg")){
+                image.src = "on.jpeg"
+            }
+            else{
+                image.src = "off.jpeg"
+            }
+        }
+    </script>
+</body>
+</html>
